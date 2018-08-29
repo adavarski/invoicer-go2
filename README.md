@@ -1,4 +1,4 @@
-invoicer
+invoicer GO app in Docker image with CircleCI:webhook and OWSAP ZAP sec test 
 ==========================
 
 A simple REST API that manages invoices.
@@ -16,11 +16,11 @@ replace the `working_directory` parameter with your own namespace.
 
 For example:
 ```yaml
-    working_directory: /go/src/github.com/adavarski/invoicer-chapter3
+    working_directory: /go/src/github.com/adavarski/invoicer-go2
 ```
 would become:
 ```yaml
-    working_directory: /go/src/github.com/your_account/invoicer-chapter3
+    working_directory: /go/src/github.com/your_account/invoicer-go2
 ```
 
 Then, sign up for circleci and build the project. The build will initially fail
