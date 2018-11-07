@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/adavarski/invoicer-go2/tree/master.svg?style=svg)](https://circleci.com/gh/adavarski/invoicer-go2)
+
 invoicer GO app in Docker image with CircleCI:webhook and OWSAP ZAP sec test 
 ==========================
 
